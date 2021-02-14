@@ -1,4 +1,3 @@
-import { Configuration, Seed } from "..";
 import { bosses, enemies, enemiesMap } from "../enemyLocations";
 import { earlyLionDash } from "../patches/earlyLionDash";
 import { expMultiplier } from "../patches/expMultiplier";
@@ -22,13 +21,15 @@ import { shorterDay5 } from "../patches/shorterDay5";
 import { skipDragon } from "../patches/skipDragon";
 import { startingAP } from "../patches/startingAP";
 import { superbossRetry } from "../patches/superbossRetry";
+import { Configuration } from "../types/configuration/Configuration";
+import { Enemy, EnemyType } from "../types/Enemy";
 import {
 	Leveling,
 	Multiplier,
 	RandomizingAction,
 	Toggle,
-} from "../types/configuration/enums";
-import { Enemy, EnemyType } from "../types/Enemy";
+} from "../types/enums";
+import { Seed } from "../types/Seed";
 import { createLine } from "./createLine";
 import { shuffle } from "./shuffle";
 

@@ -1,6 +1,6 @@
 import { Rewards } from "../rewards";
 import { formRewards } from "../rewards/form";
-import { GameMode } from "../types/configuration/enums";
+import { GameMode } from "../types/enums";
 import { LocationName } from "../types/LocationName";
 import { Reward } from "../types/Reward";
 import {

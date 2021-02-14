@@ -1,7 +1,7 @@
 import { createLine } from "../helpers/createLine";
 import { formEXP } from "../miscellaneous/formEXP";
 import { Configuration } from "../types/configuration/Configuration";
-import { Multiplier } from "../types/configuration/enums";
+import { Multiplier } from "../types/enums";
 
 export const formEXPPatch = (configuration: Configuration): string => {
 	const codes: string[] = [];

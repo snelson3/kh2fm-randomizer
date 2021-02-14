@@ -4,7 +4,7 @@ import {
 	Multiplier,
 	RandomizingAction,
 	Toggle,
-} from "./enums";
+} from "../enums";
 
 export interface Settings {
 	gameMode: GameMode;

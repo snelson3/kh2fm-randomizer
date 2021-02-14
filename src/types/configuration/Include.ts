@@ -1,4 +1,4 @@
-import { RandomizingAction, Toggle } from "./enums";
+import { RandomizingAction, Toggle } from "../enums";
 
 export interface Include {
 	keybladeAbilities: RandomizingAction;

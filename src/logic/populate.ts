@@ -28,12 +28,7 @@ import { Rewards } from "../rewards";
 import { abilityRewards } from "../rewards/ability";
 import { growthAbilityRewards } from "../rewards/growthAbility";
 import { Configuration } from "../types/configuration/Configuration";
-import {
-	GameMode,
-	Leveling,
-	RandomizingAction,
-	Toggle,
-} from "../types/configuration/enums";
+import { GameMode, Leveling, RandomizingAction, Toggle } from "../types/enums";
 import { LocationName } from "../types/LocationName";
 import { replaceableRewardTypes, Reward, RewardType } from "../types/Reward";
 import { RewardLocation } from "../types/RewardLocation";

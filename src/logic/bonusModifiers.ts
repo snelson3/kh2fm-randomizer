@@ -4,7 +4,7 @@ import { shuffle } from "../helpers/shuffle";
 import { bonusModifiersRewardLocations } from "../rewardLocations/bonusModifiers";
 import { Rewards } from "../rewards";
 import { Configuration } from "../types/configuration/Configuration";
-import { RandomizingAction, Toggle } from "../types/configuration/enums";
+import { RandomizingAction, Toggle } from "../types/enums";
 import { LocationName } from "../types/LocationName";
 import { Reward } from "../types/Reward";
 import { SeedItem } from "../types/Seed";

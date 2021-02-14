@@ -1,4 +1,4 @@
-import { Toggle } from "../types/configuration/enums";
+import { Toggle } from "../types/enums";
 import { Patch } from "../types/Patch";
 
 export const fastHyenasTwo: Patch = ({ configuration }) => {

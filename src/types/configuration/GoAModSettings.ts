@@ -1,4 +1,4 @@
-import { Toggle } from "./enums";
+import { Toggle } from "../enums";
 
 export interface GoAModSettings {
 	promiseCharm: Toggle;

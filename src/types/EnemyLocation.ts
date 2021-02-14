@@ -1,5 +1,5 @@
-import { GameMode } from "./configuration/enums";
 import { Enemy } from "./Enemy";
+import { GameMode } from "./enums";
 import { LocationName } from "./LocationName";
 
 export enum EnemyLocationType {

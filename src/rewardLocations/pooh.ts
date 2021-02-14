@@ -1,5 +1,5 @@
 import { Rewards } from "../rewards";
-import { GameMode } from "../types/configuration/enums";
+import { GameMode } from "../types/enums";
 import { LocationName } from "../types/LocationName";
 import { Reward } from "../types/Reward";
 import { RewardLocation, RewardLocationType } from "../types/RewardLocation";

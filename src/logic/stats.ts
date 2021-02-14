@@ -2,7 +2,7 @@ import { shuffle } from "../helpers/shuffle";
 import { keybladeRewardLocations } from "../rewardLocations/keyblades";
 import { levels } from "../rewardLocations/levels";
 import { Configuration } from "../types/configuration/Configuration";
-import { RandomizingAction } from "../types/configuration/enums";
+import { RandomizingAction } from "../types/enums";
 import { LocationName } from "../types/LocationName";
 import { RewardLocationType } from "../types/RewardLocation";
 import { SeedItem } from "../types/Seed";

@@ -2,7 +2,7 @@ import { shuffle } from "../helpers/shuffle";
 import { donaldRewardLocations } from "../rewardLocations/donald";
 import { goofyRewardLocations } from "../rewardLocations/goofy";
 import { Configuration } from "../types/configuration/Configuration";
-import { Toggle } from "../types/configuration/enums";
+import { Toggle } from "../types/enums";
 import { Seed } from "../types/Seed";
 import { assign } from "./assign";
 import { bonusModifiers } from "./bonusModifiers";

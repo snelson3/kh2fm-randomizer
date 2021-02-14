@@ -1,5 +1,6 @@
-import { Configuration } from "..";
-import { RandomizingAction } from "../types/configuration/enums";
+import { Configuration } from "../types/configuration/Configuration";
+import { Worlds } from "../types/configuration/Worlds";
+import { RandomizingAction } from "../types/enums";
 import { LocationName } from "../types/LocationName";
 import { RewardLocation } from "../types/RewardLocation";
 
@@ -40,7 +41,7 @@ export const filterByWorld = (
 
 	for (const [worldName, locationName] of worlds) {
 		if (world === locationName) {
-			return !rejectCallback(configuration.worlds[worldName]);
+			return !rejectCallback(configuration.worlds[worldName as keyof Worlds]);
 		}
 	}
 

@@ -1,4 +1,4 @@
-import { RandomizingAction } from "./enums";
+import { RandomizingAction } from "../enums";
 
 export interface Worlds {
 	simulatedTwilightTown: RandomizingAction;

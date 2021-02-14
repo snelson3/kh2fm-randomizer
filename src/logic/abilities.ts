@@ -4,7 +4,7 @@ import {
 	levels,
 } from "../rewardLocations/levels";
 import { Configuration } from "../types/configuration/Configuration";
-import { Leveling } from "../types/configuration/enums";
+import { Leveling } from "../types/enums";
 import { LocationName } from "../types/LocationName";
 import { Reward } from "../types/Reward";
 import { RewardLocationType } from "../types/RewardLocation";

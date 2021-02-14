@@ -1,9 +1,9 @@
-import { GameMode } from "./enums";
-import { Experimental } from "./Experimental";
-import { GoAModSettings } from "./GoAModSettings";
-import { Include } from "./Include";
-import { Settings } from "./Settings";
-import { Worlds } from "./Worlds";
+import { GameMode } from "../enums";
+import { defaultExperimental, Experimental } from "./Experimental";
+import { defaultGoAModSettings, GoAModSettings } from "./GoAModSettings";
+import { defaultInclude, Include } from "./Include";
+import { defaultSettings, Settings } from "./Settings";
+import { defaultWorlds, Worlds } from "./Worlds";
 
 export interface Configuration {
 	name: string;
@@ -16,3 +16,14 @@ export interface Configuration {
 		goa: GoAModSettings;
 	};
 }
+
+export const defaultConfiguration: Omit<Configuration, "name"> = {
+	settings: defaultSettings,
+	worlds: defaultWorlds,
+	include: defaultInclude,
+	experimental: defaultExperimental,
+	gameMode: {
+		mode: GameMode.GOA_MOD,
+		goa: defaultGoAModSettings,
+	},
+};

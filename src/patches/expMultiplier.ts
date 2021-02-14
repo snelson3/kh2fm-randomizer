@@ -1,7 +1,7 @@
 import { createLine } from "../helpers/createLine";
 import { levels } from "../rewardLocations/levels";
 import { Configuration } from "../types/configuration/Configuration";
-import { Multiplier } from "../types/configuration/enums";
+import { Multiplier } from "../types/enums";
 
 const dividers = [1, 1.5, 2, 3, 5];
 

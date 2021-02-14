@@ -1,11 +1,7 @@
 import seedrandom from "seedrandom";
 import { abilityLevels } from "../rewardLocations/levels";
 import { Configuration } from "../types/configuration/Configuration";
-import {
-	Leveling,
-	RandomizingAction,
-	Toggle,
-} from "../types/configuration/enums";
+import { Leveling, RandomizingAction, Toggle } from "../types/enums";
 import { replaceableRewardTypes, Reward, RewardType } from "../types/Reward";
 import { RewardLocation, RewardLocationType } from "../types/RewardLocation";
 import { Seed } from "../types/Seed";
